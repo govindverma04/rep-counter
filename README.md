@@ -73,3 +73,51 @@ This logic closely matches real human motion and avoids accidental double counts
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/govindveerma04e/rep-counter.git
+```
+### 2. Open in Arduino IDE
+
+- Select the correct ESP32 board
+
+- Set baud rate to 115200
+
+### 3. Upload the code
+
+- Connect ESP32 via USB
+
+- Upload the sketch
+
+### 4. Open Serial Monitor
+
+- Use it to tune distance thresholds and stability parameters
+---
+
+## ⚙️ Configuration
+
+- Key parameters you can adjust in code:
+
+// Active movement range
+ACTIVE ZONE: 30 – 80 cm
+
+// Exit (free space) zone
+EXIT ZONE: >110 cm
+
+// Stability control
+STABLE_REQUIRED = 2 or 3
+
+
+- Adjust these values based on your exercise and sensor placement.
+---
+
+## 🏃 Supported Exercises
+
+- Push-ups
+
+- Squats
+
+- Sit-ups
+
+- Home workout routines
+
+- DIY fitness tracking experiments
+---
+If you find this project useful, consider giving the repository a star ⭐
