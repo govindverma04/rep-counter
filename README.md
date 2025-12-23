@@ -72,4 +72,4 @@ This logic closely matches real human motion and avoids accidental double counts
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/workout-rep-counter.git
+git clone https://github.com/govindveerma04e/rep-counter.git
